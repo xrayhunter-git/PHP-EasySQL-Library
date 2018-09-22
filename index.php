@@ -16,7 +16,7 @@
 
     // Easy Database
     // Query and Grabbing data.
-    /*if ($result = $db->query("SELECT ? + ?", array(5, 5)))
+    if ($result = $db->query("SELECT ? + ?", array(5, 5)))
     {
         if ($result->hasErrors())
         {
@@ -29,7 +29,7 @@
             foreach($result->getResults() as $res)
                 var_dump($res);
         }  
-    }*/
+    }
 
     // Manually Creating a Table
     if ($result = $db->createTable("users", array(
